@@ -570,7 +570,11 @@ button:focus{
 }
 
 .overflow-hidden {
-    overflow: hidden;
+    overflow: hidden;  
+}
+
+#socialmedia {
+    padding-left: 70px;
 }
 
 .contact-imfo-box i{
@@ -602,6 +606,10 @@ button:focus{
     margin: 0px;
 	color: #ffffff;
 	font-weight: 300;
+}
+
+#pmuted{
+    color: #fff;
 }
 
 /*------------------------------------------------------------------

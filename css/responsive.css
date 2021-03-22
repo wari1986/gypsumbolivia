@@ -29,6 +29,7 @@
 	.why-text p{
 		margin: 0px;
 	}
+	
 }
 
 /* mobile or only mobile */
@@ -87,4 +88,8 @@
 		margin-bottom: 0px;
 		margin-top: 0px;
 	}
+
+	#socialmedia {
+		padding-left: 170px;
+}
 }
