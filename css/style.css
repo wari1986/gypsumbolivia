@@ -785,10 +785,10 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url(../images/bg-allpages.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0 0;
+    background-position: center;
     position: relative;
 }
 .all-page-title .container{
@@ -796,7 +796,6 @@ button:focus{
 	z-index: 2;
 }
 .all-page-title::before{
-	background: #010101;
 	content: "";
 	height: 100%;
 	left: 0;
