@@ -1,9 +1,26 @@
 /* only small desktops */
 /* tablets */
 /* only small tablets */
+@media only screen and (min-width: 1181px) {
+	#navbar-container {
+		max-width: 90%;
+	}
+	.cover-slides {
+		height: 982px;
+	}
+	.qt-background {
+		height: 800px;
+	}
+	.socialmedia {
+		margin-left:100px;
+	}
+}
 @media only screen and (min-width: 992px) and (max-width: 1180px) {
 	.footer-area h3{
 		font-size: 18px;
+	}
+	.qt-background {
+		height: 800px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -88,8 +105,4 @@
 		margin-bottom: 0px;
 		margin-top: 0px;
 	}
-
-	#socialmedia {
-		padding-left: 170px;
-}
 }

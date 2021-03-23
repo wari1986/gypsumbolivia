@@ -2,8 +2,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
-@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -21,7 +20,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Roboto Slab', serif;
     line-height: 1.80857;
 }
 
@@ -162,6 +161,7 @@ button:focus{
 	z-index: 10;
 }
 
+
 .top-navbar .navbar{
 	padding: 15px 0px;
 	position: fixed;
@@ -174,17 +174,17 @@ button:focus{
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
 	color: #010101;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0px 20px;
 	border-radius: 4px;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #ff0000;
+	background: #ff5200;
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #ff0000;
+	background: #ff5200;
 	color: #ffffff;
 	border-radius: 4px;
 }
@@ -195,11 +195,11 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d0a772;
+	background: #ff5200;;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
-	background: #cfa671;
+	background: #ff5200;;
 }
 
 /*------------------------------------------------------------------
@@ -210,7 +210,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #ff0000;
+	background: #ff5200;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -271,8 +271,8 @@ button:focus{
 }
 .btn-outline-new-white:hover {
     color: #ffffff;
-    background-color: #ff0000;
-    border-color: #ff0000;
+    background-color: #ff5200;
+    border-color: #ff5200;
 }
 
 .overlay-background {
@@ -286,7 +286,7 @@ button:focus{
 }
 
 .cover-slides h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab', serif;
 	font-weight: 500;
 	font-size: 64px;
 	color: #fff;
@@ -299,8 +299,8 @@ button:focus{
 	border: 2px solid #ffffff;
 }
 .slides-pagination a.current{
-	background: #ff0000;
-	border: 2px solid #ff0000;
+	background: #ff5200;
+	border: 2px solid #ff5200;
 }
 
 /*------------------------------------------------------------------
@@ -308,7 +308,10 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .about-section-box{
-	padding: 70px 0px;
+	padding: 10px 0px;
+    /* background: rgb(255,98,0);
+    background: radial-gradient(circle, rgba(255,98,0,1) 0%, rgba(255,82,0,1) 69%);  */
+    background-image: linear-gradient( to bottom,#ffbd54 0%,#fec458 50%,#ffbc3a 100% );
 }
 .about-section-box .img-fluid{
 	box-shadow: -10px -10px 0px #ffffff;
@@ -317,26 +320,33 @@ button:focus{
   padding: 90px;
 }
 .inner-column h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 	font-size: 30px;
-	color: #010101;
+	color: #ffff;
 }
 .inner-column h1 span{
-	color: #ff0000;
+	color: #ffff;
+    font-weight: 400;
 }
 .inner-column h4{
 	font-size: 16px;
 	font-weight: 500;
+    color: #ffff;
+    padding-top: 20px;
 }
 .inner-column p{
   padding: 20px;
-	font-size: 18px;
+  font-size: 18px;
+  color: #ffffff;
 }
 .inner-column .btn-outline-new-white{
-	color: #ff0000;
+	color: #ff5200;
+    background-color: #fff;
 }
 .inner-column .btn-outline-new-white:hover{
 	color: #ffffff;
+    background: #ff5200
 }
 
 /*------------------------------------------------------------------
@@ -352,13 +362,14 @@ button:focus{
 	background-position: center center;
 	position: relative;
     opacity: 0.99;
+    height: 500px;
 }
 .qt-background p {
     font-size: 35px;
     font-weight: 300;
     line-height: 44px;
     color: #fff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab',serif;
 	margin-bottom: 20px;
 }
 
@@ -373,16 +384,18 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .menu-box{
-	padding: 70px 0px;
+	padding: 90px 0px;
 }
 
 .heading-title{
 	margin-bottom: 50px;
 }
 .heading-title h2{
-	color: #010101;
+	color: #FF5200;
 	font-size: 28px;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab',serif;
+    font-weight: 500;
+    padding:50px 0;
 }
 .heading-title p{
 	font-size: 18px;
@@ -391,14 +404,14 @@ button:focus{
 }
 
 .filter-button-group {
-    border: 1px solid #ff0000;
+    border: 1px solid #ff5200;
     border-radius: 4px;
     margin: 10px 15px;
     display: inline-block;
 }
 
 .filter-button-group button {
-    color: #ff0000;
+    color: #ff5200;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
@@ -408,12 +421,12 @@ button:focus{
     padding: 12px 40px;
     border: none;
     border-radius: 4px;
+
 }
 
 .filter-button-group button.active {
-    background: #ff0000;
+    background: #ff5200;
     color: #fff;
-    box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
 .gallery-single{
@@ -428,12 +441,12 @@ button:focus{
 }
 
 .why-text {
-    position: absolute;
+    position:absolute;
     left: 0;
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(255, 0, 0, 0.7);
+    background: rgb(255,82,0, 0.85);
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -442,7 +455,7 @@ button:focus{
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab',serif;
 }
 .why-text p{
 	color: #ffffff;
@@ -469,7 +482,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .gallery-box{
-	padding: 70px 0px;
+	padding: 0;
 }
 .tz-gallery{
 	margin-top: 30px;
@@ -486,6 +499,18 @@ button:focus{
 }
 
 /*------------------------------------------------------------------
+    Social Media
+-------------------------------------------------------------------*/
+
+
+#socialmedia {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+
+/*------------------------------------------------------------------
     Customer Reviews
 -------------------------------------------------------------------*/
 
@@ -499,6 +524,7 @@ button:focus{
 }
 .carousel-control-prev{
 	left: -100px;
+    
 }
 .carousel-control-next{
 	right: -100px;
@@ -508,9 +534,10 @@ button:focus{
 }
 
 .text-warning{
-	color: #d0a772 !important;
+	color: #ff5200 !important;
 	font-size: 24px;
 }
+
 
 @media (min-width: 320px) and (max-width: 640px) {
 	.carousel-inner .carousel-item p{
@@ -565,16 +592,12 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .contact-imfo-box{
-	background: #ff0000;
-	padding: 30px 0;
+	background: #ff5200;
+	padding: 50px 0;
 }
 
 .overflow-hidden {
     overflow: hidden;  
-}
-
-#socialmedia {
-    padding-left: 70px;
 }
 
 .contact-imfo-box i{
@@ -585,7 +608,7 @@ button:focus{
 	line-height: 60px;
 	text-align: center;
 	background: #fff;
-	color: #ff0000;
+	color: #ff5200;
 	font-size: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -777,7 +800,7 @@ button:focus{
 .all-page-title h1{
 	font-size: 38px;
 	color: #ffffff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto Slab',serif;
 	padding: 0px;
 }
 
@@ -921,14 +944,14 @@ button:focus{
 	margin-top: 20px;
 }
 .btn.btn-common{
-	color: #ff0000 ;
+	color: #ff5200 ;
 	background-color: transparent;
 	background-image: none;
-	border-color: #ff0000 ;
+	border-color: #ff5200 ;
 }
 .btn.btn-common:hover{
 	color: #ffffff;
-	background-color: #ff0000 ;
+	background-color: #ff5200 ;
 	border-color: #cfa671;
 }
 .blog-box{
@@ -1332,7 +1355,7 @@ blockquote {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #ff0000;
+    background: #ff5200;
     color: #ffffff;
     cursor: pointer;
     border: 0;
