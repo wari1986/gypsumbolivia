@@ -177,10 +177,15 @@ button:focus{
 	font-size: 16px;
 	padding: 0px 20px;
 	border-radius: 4px;
+    background-color: #ffbc3a;
+}
+
+#navbar-bg {
+    background-color: #ffbc3a;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #ff5200;
+	background: #ffbc3a;
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
@@ -195,11 +200,11 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #ff5200;;
+	background: #ffbc3a;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
-	background: #ff5200;;
+	background: #ffbc3a;;
 }
 
 /*------------------------------------------------------------------
@@ -317,36 +322,36 @@ button:focus{
 	box-shadow: -10px -10px 0px #ffffff;
 }
 .inner-column{
-  padding: 90px;
+  padding: 20px;
 }
 .inner-column h1{
 	font-family: 'Roboto Slab', serif;
     font-weight: 600;
-	font-size: 30px;
-	color: #ffff;
+	font-size: 40px;
+	color: black;
 }
 .inner-column h1 span{
-	color: #ffff;
+	color: #ffffff;
     font-weight: 400;
 }
 .inner-column h4{
 	font-size: 16px;
 	font-weight: 500;
-    color: #ffff;
+    color:#ffff;
     padding-top: 20px;
 }
 .inner-column p{
   padding: 20px;
   font-size: 18px;
-  color: #ffffff;
+  color: black;
 }
 .inner-column .btn-outline-new-white{
-	color: #ff5200;
+	color: #ffbc3a;
     background-color: #fff;
 }
 .inner-column .btn-outline-new-white:hover{
 	color: #ffffff;
-    background: #ff5200
+    background: #ffbc3a;
 }
 
 /*------------------------------------------------------------------
