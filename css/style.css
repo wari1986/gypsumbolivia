@@ -513,10 +513,8 @@ button:focus{
 
 
 #socialmedia {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*------------------------------------------------------------------
@@ -625,6 +623,7 @@ button:focus{
 	border-radius: 50%;
 	margin-right: 20px;
 }
+
 .contact-imfo-box h4 {
     margin: 0px;
     margin-top: 5px;
