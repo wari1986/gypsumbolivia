@@ -189,7 +189,7 @@ button:focus{
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #ff5200;
+	background: #ffbc3a;
 	color: #ffffff;
 	border-radius: 4px;
 }
@@ -215,7 +215,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #ff5200;
+	background: #ffbc3a;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -276,8 +276,8 @@ button:focus{
 }
 .btn-outline-new-white:hover {
     color: #ffffff;
-    background-color: #ff5200;
-    border-color: #ff5200;
+    background-color: #ffbc3a;
+    border-color: #ffbc3a;
 }
 
 .overlay-background {
@@ -304,8 +304,8 @@ button:focus{
 	border: 2px solid #ffffff;
 }
 .slides-pagination a.current{
-	background: #ff5200;
-	border: 2px solid #ff5200;
+	background: #ffbc3a;
+	border: 2px solid #ffbc3a;
 }
 
 /*------------------------------------------------------------------
@@ -352,6 +352,7 @@ button:focus{
 .inner-column .btn-outline-new-white:hover{
 	color: #ffffff;
     background: #ffbc3a;
+    border-color: #ffffff;
 }
 
 /*------------------------------------------------------------------
@@ -396,7 +397,7 @@ button:focus{
 	margin-bottom: 50px;
 }
 .heading-title h2{
-	color: #FF5200;
+	color: #ffbc3a;
 	font-size: 28px;
 	font-family: 'Roboto Slab',serif;
     font-weight: 500;
@@ -409,14 +410,14 @@ button:focus{
 }
 
 .filter-button-group {
-    border: 1px solid #ff5200;
+    border: 1px solid #ffbc3a;
     border-radius: 4px;
     margin: 10px 15px;
     display: inline-block;
 }
 
 .filter-button-group button {
-    color: #ff5200;
+    color: #ffbc3a;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
@@ -430,7 +431,7 @@ button:focus{
 }
 
 .filter-button-group button.active {
-    background: #ff5200;
+    background: #ffbc3a;
     color: #fff;
 }
 
@@ -445,7 +446,7 @@ button:focus{
     box-shadow: 0 0 10px #ccc;
 }
 
-.why-text {
+/* .why-text {
     position:absolute;
     left: 0;
     bottom: -100%;
@@ -475,7 +476,7 @@ button:focus{
 	font-size: 28px;
 	font-weight: 600;
 	color: #ffffff;
-}
+} */
 
 .gallery-single:hover .why-text{
 	bottom: 0px;
@@ -517,6 +518,7 @@ button:focus{
     justify-content: space-around;
 }
 
+
 /*------------------------------------------------------------------
     Customer Reviews
 -------------------------------------------------------------------*/
@@ -541,7 +543,7 @@ button:focus{
 }
 
 .text-warning{
-	color: #ff5200 !important;
+	color: #ffbc3a !important;
 	font-size: 24px;
 }
 
@@ -599,7 +601,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .contact-imfo-box{
-	background: #ff5200;
+	background: #ffbc3a;
 	padding: 50px 0;
 }
 
@@ -615,7 +617,7 @@ button:focus{
 	line-height: 60px;
 	text-align: center;
 	background: #fff;
-	color: #ff5200;
+	color: #ffbc3a;
 	font-size: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -767,6 +769,7 @@ button:focus{
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 980px;
 }
 .all-page-title .container{
 	position: relative;
@@ -929,14 +932,14 @@ button:focus{
 	margin-top: 20px;
 }
 .btn.btn-common{
-	color: #ff5200 ;
+	color: #ffbc3a ;
 	background-color: transparent;
 	background-image: none;
-	border-color: #ff5200 ;
+	border-color: #ffbc3a ;
 }
 .btn.btn-common:hover{
 	color: #ffffff;
-	background-color: #ff5200 ;
+	background-color: #ffbc3a ;
 	border-color: #cfa671;
 }
 .blog-box{
@@ -1340,7 +1343,7 @@ blockquote {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #ff5200;
+    background: #ffbc3a;
     color: #ffffff;
     cursor: pointer;
     border: 0;
