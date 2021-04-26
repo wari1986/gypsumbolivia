@@ -658,6 +658,13 @@ button:focus{
 	font-weight: 300;
 }
 
+.maptext {
+    color: #ffbc3a;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
 #pmuted{
     color: #fff;
 }
@@ -1350,11 +1357,7 @@ blockquote {
     margin: 0px auto;
 
 }
-#shammap {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
+
 
 #back-to-top {
     position: fixed;
