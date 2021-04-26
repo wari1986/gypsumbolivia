@@ -40,8 +40,7 @@
       <nav id="navbar-bg" class="navbar navbar-expand-lg navbar-light">
         <div class="container" id="navbar-container">
           <a class="navbar-brand" href="index.html">
-            <!-- <img src="images/shawarma-logo.jpg" alt="" /> -->
-            <h1>Gypsum-Bolivia</h1>
+            <img src="images/logo.png" alt="gypsumlogo" />
           </a>
           <button
             class="navbar-toggler"
@@ -116,7 +115,7 @@
             h1 {
               padding: 20px;
             }
-            
+
             .mapouter {
               position: relative;
               text-align: right;
@@ -147,7 +146,9 @@
             width="600"
             height="600"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=17%C2%B029'24.7%22S%2066%C2%B020'19.3%22W&t=&z=13&ie=UTF8&iwloc=&output=embed"            scrolling="no"
+            src="https://maps.google.com/maps?q=17%C2%B029'24.7%22S%2066%C2%B020'19.3%22W&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            scrolling="no"
+            frameborder="0"
             marginheight="0"
             marginwidth="0"
           ></iframe>
@@ -236,82 +237,204 @@
 
     <!-- Start Contact -->
 
-    
-		<div id='formtextcontainer'>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Contáctanos</h2>
-						<p>Mándanos un correo con cualquier duda y nuestro equipo se encargará de responder rápidamente.</p>
-					</div>
-				</div>
-			</div>
-			<hr>
-    <div class="contact-box">
-      <div  id='formcontainer'>
+    <div id="formtextcontainer">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <form
-              action="https://submit-form.com/bubweVDk"
-              class="vertical-form"
-            >
-              <input
-                type="hidden"
-                name="_redirect"
-                value="https://www.ketolabbolivia.com/"
-              />
-              <label for="name">Nombre</label>
-              <input type="text" id="name" name="name" required="" />
-			  <label for="name">Apellidos</label>
-              <input type="text" id="lastname" name="lastname" required="" />
-			  <label for="name">Teléfono</label>
-              <input type="text" id="phone" name="phone" required="" />
-              <label for="email">Correo Electrónico</label>
-              <input type="email" id="email" name="email" required="" />
-			  <label for="name">Empresa (opcional)</label>
-              <input type="text" id="company" name="company" />
-              <label for="message">Mensaje</label>
-              <textarea id="message" name="message" required=""></textarea>
-              <button type="submit">Enviar</button>
-			  <div class="col-sm-12">
-				<div class="g-recaptcha"  data-sitekey="6LeB1akaAAAAAIkYd7cfY94f48gqDc-xQg98sgkO"></div>
-				<br/>
-			  </div>
-
+            <div class="heading-title text-center">
+              <h2>Contáctanos</h2>
+              <p>
+                Mándanos un correo con cualquier duda y nuestro equipo se
+                encargará de responder rápidamente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row" id='formcontainer'>
+          <div class="col-lg-10">
+            <div class="contact-box">
+              <form
+                id="fs-frm"
+                name="complaint-form"
+                accept-charset="utf-8"
+                action="https://formspree.io/f/xeqvqwbp"
+                method="post"
+              >
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Nombre</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Nombre"
+                    required=""
+                  />
+                  <label for="full-name">Apellido</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Apellido"
+                    required=""
+                  />
+                  <label for="email-address">Correo Electrónico</label>
+                  <input
+                    type="email"
+                    name="_replyto"
+                    id="email-address"
+                    placeholder="email@domain.com"
+                    required=""
+                  />
+                  <label for="telephone">Teléfono</label>
+                  <input
+                    type="telephone"
+                    name="telephone"
+                    id="telephone"
+                    placeholder="(555) 555-5555"
+                  />
+                  <label for="full-name">Empresa (opcional)</label>
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    placeholder="Empresa"
+                  />
+                  <label for="complaint">Mensaje</label>
+                  <textarea
+                    rows="10"
+                    name="message"
+                    id="message"
+                    placeholder="¿Como podemos ayudarte?"
+                    required=""
+                  ></textarea>
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    id="email-subject"
+                    value="Complaint Form Submission"
+                  />
+                </fieldset>
+                <input type="submit" value="Enviar" />
+              </form>
               <style>
-                .vertical-form {
-                  display: flex;
-                  flex-direction: column;
-                  gap: 0.25rem;
-                  max-width: 500px;
-                  padding: 0 10px
-				  
-                }
-
-                label {
-                  margin-bottom: 0;
-                  padding-bottom: 0;
-                }
-
-                input {
-                  margin: 0 5px;
-                  padding: 0 5px;
-                }
-
-                button {
+                /* reset */
+                #fs-frm input,
+                #fs-frm select,
+                #fs-frm textarea,
+                #fs-frm fieldset,
+                #fs-frm optgroup,
+                #fs-frm label,
+                #fs-frm #card-element:disabled {
+                  font-family: inherit;
+                  font-size: 100%;
+                  color: inherit;
+                  border: none;
+                  border-radius: 0;
                   display: block;
+                  width: 100%;
+                  padding: 0;
+                  margin: 0;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                }
+                #fs-frm label,
+                #fs-frm legend,
+                #fs-frm ::placeholder {
+                  font-size: 0.825rem;
+                  margin-bottom: 0.5rem;
+                  padding-top: 0.2rem;
+                  display: flex;
+                  align-items: baseline;
+                }
+
+                /* border, padding, margin, width */
+                #fs-frm input,
+                #fs-frm select,
+                #fs-frm textarea,
+                #fs-frm #card-element {
+                  border: 1px solid rgba(0, 0, 0, 0.2);
+                  background-color: rgba(255, 255, 255, 0.9);
+                  padding: 0.75em 1rem;
+                  margin-bottom: 1.5rem;
+                }
+                #fs-frm input:focus,
+                #fs-frm select:focus,
+                #fs-frm textarea:focus {
+                  background-color: white;
+                  outline-style: solid;
+                  outline-width: thin;
+                  outline-color: gray;
+                  outline-offset: -1px;
+                }
+                #fs-frm [type="text"],
+                #fs-frm [type="email"] {
+                  width: 100%;
+                }
+                #fs-frm [type="button"],
+                #fs-frm [type="submit"],
+                #fs-frm [type="reset"] {
+                  width: auto;
+                  cursor: pointer;
+                  -webkit-appearance: button;
+                  -moz-appearance: button;
+                  appearance: button;
+                }
+                #fs-frm [type="button"]:focus,
+                #fs-frm [type="submit"]:focus,
+                #fs-frm [type="reset"]:focus {
+                  outline: none;
+                }
+                #fs-frm [type="submit"],
+                #fs-frm [type="reset"] {
+                  display: block;
+                  width: auto;
                   margin-left: auto;
                   margin-right: auto;
-                  width: 50%;
-                  margin-top: 20px;
-                  margin-bottom: 20px;
+                  margin-bottom: 0;
+                  color:white;
                   background-color: #ffbc3a;
-                  color: white;
-                  border: none;
+                }
+                #fs-frm select {
+                  text-transform: none;
                 }
 
+                #fs-frm [type="checkbox"] {
+                  -webkit-appearance: checkbox;
+                  -moz-appearance: checkbox;
+                  appearance: checkbox;
+                  display: inline-block;
+                  width: auto;
+                  margin: 0 0.5em 0 0 !important;
+                }
+
+                #fs-frm [type="radio"] {
+                  -webkit-appearance: radio;
+                  -moz-appearance: radio;
+                  appearance: radio;
+                }
+
+                /* address, locale */
+                #fs-frm fieldset.locale input[name="city"],
+                #fs-frm fieldset.locale select[name="state"],
+                #fs-frm fieldset.locale input[name="postal-code"] {
+                  display: inline;
+                }
+                #fs-frm fieldset.locale input[name="city"] {
+                  width: 52%;
+                }
+                #fs-frm fieldset.locale select[name="state"],
+                #fs-frm fieldset.locale input[name="postal-code"] {
+                  width: 20%;
+                }
+                #fs-frm fieldset.locale input[name="city"],
+                #fs-frm fieldset.locale select[name="state"] {
+                  margin-right: 3%;
+                }
               </style>
-            </form>
+            </div>
           </div>
         </div>
       </div>

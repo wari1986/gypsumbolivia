@@ -161,6 +161,9 @@ button:focus{
 	z-index: 10;
 }
 
+.top-navbar img {
+    width: 65%;
+}
 
 .top-navbar .navbar{
 	padding: 15px 0px;
@@ -494,6 +497,16 @@ button:focus{
 .gallery-box{
 	padding: 0;
 }
+.gallery-single {
+    margin:30px 10px;
+}
+
+.gallery-single img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .tz-gallery{
 	margin-top: 30px;
 }
@@ -507,7 +520,12 @@ button:focus{
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
-
+.imagetexth2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffbc3a;
+}
 /*------------------------------------------------------------------
     Social Media
 -------------------------------------------------------------------*/
@@ -517,7 +535,6 @@ button:focus{
     display: flex;
     justify-content: space-around;
 }
-
 
 /*------------------------------------------------------------------
     Customer Reviews
@@ -645,6 +662,10 @@ button:focus{
     color: #fff;
 }
 
+#formcontainer {
+    display: flex;
+    justify-content: center;
+}
 /*------------------------------------------------------------------
     Footer
 -------------------------------------------------------------------*/
@@ -1319,6 +1340,7 @@ blockquote {
 
 .contact-box{
 	padding: 70px 0px;
+    margin: 0 15px;
 }
 
 .map-full {
@@ -1351,4 +1373,8 @@ blockquote {
     text-decoration: none;
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
+}
+
+#equipmentcontainer {
+    margin-top: 40px;
 }
