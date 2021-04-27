@@ -1381,3 +1381,50 @@ blockquote {
 #equipmentcontainer {
     margin-top: 40px;
 }
+
+
+/* Modal section */
+
+.modal-title{
+    color: #ffbc3a;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.modalimage {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modalimage img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modaltext {
+    margin: 30px 10px;
+    text-align: justify;
+}
+
+.modalbutton {
+    background-color: #ffbc3a;
+    color: white;
+    border: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul.bullets li {
+    list-style-type:disc!important;
+    margin-left:30px;
+  }
